@@ -33,7 +33,7 @@ public class Concat implements Music {
      * @return duration of this concatenation
      */
     public double duration() {
-        return first.duration();
+        return first.duration()+second.duration();
     }
 
     @Override
