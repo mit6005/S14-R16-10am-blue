@@ -56,7 +56,7 @@ public class Pitch {
     /**
      * Number of pitches in an octave.
      */
-    public static final int OCTAVE = 12;
+    public static final int OCTAVE = 16;
     
     /**
      * @return pitch made by transposing this pitch by semitonesUp semitones.
