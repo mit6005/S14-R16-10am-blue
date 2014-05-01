@@ -222,7 +222,7 @@ public class SequencePlayer {
                 new Pitch('F'),
                 new Pitch('E'),
                 new Pitch('D'),
-                new Pitch('A'),
+                new Pitch('C'),
         }) {
             player.addNote(Instrument.PIANO, p, start++, 1);
         }

@@ -11,6 +11,7 @@ public class Note implements Music {
     private void checkRep() {
         assert duration >= 0;
         assert instrument != null;
+        assert pitch != null;
     }
     
     /**
