@@ -30,6 +30,13 @@ public class Concat implements Music {
     }
     
     /**
+     * @return first piece in this concatenation
+     */
+    public Music second() {
+        return second;
+    }
+    
+    /**
      * @return duration of this concatenation
      */
     public double duration() {
