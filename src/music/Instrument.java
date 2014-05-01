@@ -139,7 +139,7 @@ public enum Instrument {
 
     TINKLE_BELL,
     AGOGO,
-    STEAL_DRUMS,
+    STEEL_DRUMS,
     WOODBLOCK,
     TAIKO_DRUM,
     MELODIC_TOM,
