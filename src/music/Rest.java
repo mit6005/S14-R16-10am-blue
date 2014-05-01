@@ -49,4 +49,9 @@ public class Rest implements Music {
     public String toString() {
         return "." + duration;
     }
+
+    @Override
+    public double duration() {
+        return this.duration;
+    }
 }
