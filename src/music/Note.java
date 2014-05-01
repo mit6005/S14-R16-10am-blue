@@ -81,10 +81,4 @@ public class Note implements Music {
         return pitch.toString() + duration;
     }
     
-    public static void testNote() {
-        Note n = new Note(10, new Pitch('C'), Instrument.PIANO);
-        System.out.println("Note is: " + n);
-        Note n = new Note(10, new Pitch('C').transpose(1), Instrument.PIANO);
-        System.out.println("Note is: " + n);
-    }
 }
