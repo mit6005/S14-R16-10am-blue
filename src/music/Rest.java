@@ -1,5 +1,5 @@
 package music;
-
+// ADDING TESTING COMMENT
 /**
  * Rest represents a pause in a piece of music.
  */
